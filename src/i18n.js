@@ -18,44 +18,46 @@ const resources = {
       },
       hero: {
         title: 'Welcome to My Portfolio',
-        subtitle: 'Software Engineer Specializing in Software Design, Database Solutions, and ETL Processes',
+        subtitle: 'I am a passionate software developer who continuously explores new technologies and applies them to real-world solutions.',
         cta: 'View My Work',
       },
       about: {
         title: 'About Me',
-        description: 'I\'m a passionate Software Engineer with expertise in <strong>Software Design</strong>, <strong>Database Design</strong>, <strong>Software Development</strong>, <strong>ETL Processes</strong>, <strong>Database Scripting</strong>, and <strong>Excel VBA</strong>. With a strong focus on building scalable and efficient solutions, I have delivered projects that optimize workflows and enhance business performance. My goal is to create robust systems that solve real-world problems.',
+        description: 'Technology professional with over 20 years of experience in software development, project management, and financial technology. Demonstrated expertise in fund management systems, software architecture, SDLC, and cybersecurity. Proven track record in leading cross-functional teams, delivering innovative technology solutions, and streamlining operations for financial institutions. Deeply committed to continuous learning and leveraging emerging technologies to solve complex business challenges.',
       },
       portfolio: {
         title: 'Portfolio',
         project1: {
-          title: 'ETL Pipeline for Data Warehouse',
-          description: 'Designed and implemented an ETL pipeline using Python and Apache Airflow to process large datasets, improving data integration for a retail company.',
+          title: 'Fund Management System',
+          description: 'Developed software solutions across Windows applications, services, web services, and APIs to meet the business needs of fund management operations.',
           link: 'View Details',
+          linkurl: 'https://github.com/narongskml',
         },
         project2: {
-          title: 'Database Optimization',
-          description: 'Optimized SQL Server database with complex stored procedures and indexing, reducing query execution time by 40%.',
+          title: 'T-LIVE-CODE YouTube',
+          description: '“T-LIVE-CODE” YouTube channel, which shares basic tech knowledge in Thai, helping the local community understand technology more easily.',
           link: 'View Details',
+          linkurl: 'https://www.youtube.com/@t-live-code',
         },
         project3: {
-          title: 'Excel VBA Automation',
-          description: 'Developed VBA scripts to automate financial reporting, saving 20 hours of manual work per week.',
+          title: 'Software Project Management',
+          description: 'Managed multiple internal software projects, coordinating across teams to ensure smooth collaboration. Focused on developing user-centric solutions that effectively addressed business requirements.',
           link: 'View Details',
         },
       },
       skills: {
         title: 'Skills',
         skill1: {
-          title: 'Software Design',
-          description: 'Designing scalable and maintainable software architectures using UML and design patterns.',
+          title: '💻 Software Development',
+          description: 'Expert in software development with over 20 years of experience in system analysis, design, and enterprise-level development, especially in the finance and securities industry.',
         },
         skill2: {
-          title: 'Database Design & Scripting',
-          description: 'Expertise in designing relational databases and writing efficient SQL scripts for MySQL, SQL Server, and PostgreSQL.',
+          title: '🎓 Tech Education & Content Creation',
+          description: 'Founder of the “T-LIVE-CODE” YouTube channel, which shares basic tech knowledge in Thai, helping the local community understand technology more easily.',
         },
         skill3: {
-          title: 'ETL & Automation',
-          description: 'Building ETL pipelines with tools like Apache Airflow and automating workflows with Python and VBA.',
+          title: '🚀 Leadership & Lifelong Learning',
+          description: 'Skilled in technology leadership and continuously learning to stay current with emerging tech trends.',
         },
       },
       contact: {
@@ -63,6 +65,8 @@ const resources = {
         subtitle: 'Interested in working together? Feel free to reach out!',
         email: 'Email Me',
         linkedin: 'LinkedIn',
+        youtube: 'YouTube',
+
       },
       footer: {
         text: '© 2025 Narong Sungkhamalai. All rights reserved.',
@@ -83,44 +87,47 @@ const resources = {
       },
       hero: {
         title: 'ยินดีต้อนรับสู่ Portfolio ของฉัน',
-        subtitle: 'วิศวกรซอฟต์แวร์ผู้เชี่ยวชาญด้านการออกแบบซอฟต์แวร์ ฐานข้อมูล และกระบวนการ ETL',
+        subtitle: 'ผมเป็นนักพัฒนาซอฟต์แวร์ที่มีความหลงใหลในเทคโนโลยีใหม่ ๆ และมุ่งมั่นเรียนรู้อย่างต่อเนื่องเพื่อนำไปประยุกต์ใช้ในโลกจริง ',
         cta: 'ดูผลงานของฉัน',
       },
       about: {
         title: 'เกี่ยวกับฉัน',
-        description: 'ฉันเป็นวิศวกรซอฟต์แวร์ที่มีความมุ่งมั่นและเชี่ยวชาญใน <strong>การออกแบบซอฟต์แวร์</strong>, <strong>การออกแบบฐานข้อมูล</strong>, <strong>การพัฒนาซอฟต์แวร์</strong>, <strong>กระบวนการ ETL</strong>, <strong>การเขียนสคริปต์ฐานข้อมูล</strong>, และ <strong>Excel VBA</strong> ฉันมุ่งเน้นการสร้างโซลูชันที่สามารถขยายได้และมีประสิทธิภาพ โดยได้ส่งมอบโปรเจกต์ที่ช่วยเพิ่มประสิทธิภาพการทำงานและผลักดันประสิทธิภาพของธุรกิจ เป้าหมายของฉันคือการสร้างระบบที่แข็งแกร่งเพื่อแก้ปัญหาในโลกแห่งความเป็นจริง',
+        description: 'ผู้เชี่ยวชาญด้านเทคโนโลยีที่มีประสบการณ์มากกว่า 20 ปีในด้านการพัฒนาซอฟต์แวร์ การบริหารโครงการ และฟินเทค มีความเชี่ยวชาญเป็นพิเศษในระบบบริหารกองทุน สถาปัตยกรรมซอฟต์แวร์ SDLC และความมั่นคงปลอดภัยทางไซเบอร์ มีผลงานเด่นในการนำทีมข้ามสายงาน พัฒนาโซลูชันด้านเทคโนโลยี และเพิ่มประสิทธิภาพกระบวนการในสถาบันการเงิน มุ่งมั่นในการเรียนรู้ตลอดชีวิต และนำเทคโนโลยีสมัยใหม่มาประยุกต์ใช้เพื่อแก้ปัญหาทางธุรกิจอย่างสร้างสรรค์',
       },
       portfolio: {
         title: 'ผลงาน',
         project1: {
-          title: 'ระบบ ETL สำหรับ Data Warehouse',
-          description: 'ออกแบบและพัฒนาระบบ ETL โดยใช้ Python และ Apache Airflow เพื่อประมวลผลชุดข้อมูลขนาดใหญ่ ปรับปรุงการรวมข้อมูลสำหรับบริษัทค้าปลีก',
+          title: 'ระบบบริหารจัดการกองทุน',
+          description: 'พัฒนา ซอฟท์แวร์ ทั้ง Windows, Service, Webservice, API เพื่อตอบโจทย์ ธุรกิจจัดการกองทุน ',
           link: 'ดูรายละเอียด',
+          linkurl: 'https://github.com/narongskml',
         },
         project2: {
-          title: 'การปรับปรุงประสิทธิภาพฐานข้อมูล',
-          description: 'ปรับปรุงประสิทธิภาพฐานข้อมูล SQL Server ด้วย stored procedures และการทำ index ลดเวลาในการรัน query ลง 40%',
+          title: 'ช่อง ยูทูป T-LIVE-CODE',
+          description: 'การก่อตั้งและบริหารช่อง YouTube “T-LIVE-CODE” เพื่อแบ่งปันความรู้ด้านเทคโนโลยีและการเขียนโปรแกรมเป็นภาษาไทย แสดงถึงความมุ่งมั่นในการส่งเสริมการเรียนรู้และพัฒนาทักษะของผู้สนใจ',
           link: 'ดูรายละเอียด',
+          linkurl: 'https://www.youtube.com/@t-live-code',
         },
         project3: {
-          title: 'การทำระบบอัตโนมัติด้วย Excel VBA',
-          description: 'พัฒนาสคริปต์ VBA เพื่อทำระบบอัตโนมัติสำหรับการรายงานทางการเงิน ประหยัดเวลา 20 ชั่วโมงต่อสัปดาห์',
+          title: 'บริหารจัดการโครงการ',
+          description: 'จัดการโครงการภายในองค์กร ที่เกี่ยวกับ Software หลายโครงการ ประสานงานระหว่างทีมงาน เน้นการพัฒนาโซลูชันที่ตอบสนองต่อความต้องการของผู้ใช้งาน',
           link: 'ดูรายละเอียด',
+          linkurl: '#',
         },
       },
       skills: {
         title: 'ทักษะ',
         skill1: {
-          title: 'การออกแบบซอฟต์แวร์',
-          description: 'ออกแบบสถาปัตยกรรมซอฟต์แวร์ที่สามารถขยายได้และบำรุงรักษาง่ายโดยใช้ UML และ design patterns',
+          title: '💻 การพัฒนาซอฟต์แวร์',
+          description: 'เชี่ยวชาญการพัฒนาซอฟต์แวร์ด้วยประสบการณ์กว่า 20 ปี ทั้งด้านวิเคราะห์ ออกแบบ และพัฒนาระบบระดับองค์กร โดยเฉพาะในอุตสาหกรรมการเงินและหลักทรัพย์',
         },
         skill2: {
-          title: 'การออกแบบฐานข้อมูลและสคริปต์',
-          description: 'เชี่ยวชาญในการออกแบบฐานข้อมูลเชิงสัมพันธ์และเขียนสคริปต์ SQL ที่มีประสิทธิภาพสำหรับ MySQL, SQL Server และ PostgreSQL',
+          title: '🎓 การสอนด้านเทคโนโลยี & การสร้างคอนเทนต์',
+          description: 'ผู้ก่อตั้งช่อง YouTube “T-LIVE-CODE” ถ่ายทอดความรู้พื้นฐานด้านเทคโนโลยีเป็นภาษาไทย สนับสนุนการเรียนรู้ของคนไทยให้เข้าใจเทคโนโลยีได้ง่ายขึ้น',
         },
         skill3: {
-          title: 'ETL และการทำระบบอัตโนมัติ',
-          description: 'สร้างระบบ ETL ด้วยเครื่องมือเช่น Apache Airflow และทำระบบอัตโนมัติด้วย Python และ VBA',
+          title: '🚀 ความเป็นผู้นำ & การเรียนรู้อย่างต่อเนื่อง',
+          description: 'มีทักษะภาวะผู้นำในงานด้านเทคโนโลยี พร้อมใฝ่รู้และพัฒนาตนเองอย่างต่อเนื่อง เพื่อให้ทันกับการเปลี่ยนแปลงของโลกเทคโนโลยีอยู่เสมอ',
         },
       },
       contact: {
@@ -128,6 +135,8 @@ const resources = {
         subtitle: 'สนใจทำงานร่วมกัน? ติดต่อได้เลย!',
         email: 'ส่งอีเมลถึงฉัน',
         linkedin: 'LinkedIn',
+        youtube: 'YouTube',
+
       },
       footer: {
         text: '© 2568 ณรงค์ สังขมาลัย สงวนลิขสิทธิ์',
@@ -148,44 +157,47 @@ const resources = {
       },
       hero: {
         title: '欢迎体验我的作品集',
-        subtitle: '软件工程师，专注于软件设计、数据库解决方案和ETL流程',
+        subtitle: '我是一个充满热情的软件开发者，不断探索新技术并将其应用于现实世界的解决方案。',
         cta: '查看我的作品',
       },
       about: {
         title: '关于我',
-        description: '我是一名充满热情的软件工程师，擅长<strong>软件设计</strong>、<strong>数据库设计</strong>、<strong>软件开发</strong>、<strong>ETL流程</strong>、<strong>数据库脚本</strong>和<strong>Excel VBA</strong>。我专注于构建可扩展且高效的解决方案，交付了优化工作流程并提升业务性能的项目。我的目标是创建强大的系统来解决现实世界的问题。',
+        description: '拥有20多年软件开发、项目管理和金融科技经验的技术专家。擅长基金管理系统、软件架构、SDLC（软件开发生命周期）以及网络安全。在领导跨职能团队、实施创新技术方案及优化金融机构运营方面有着丰富的成功经验。始终保持学习热情，积极运用前沿技术解决复杂的商业挑战。',
       },
       portfolio: {
         title: '作品集',
         project1: {
-          title: '数据仓库的ETL流水线',
-          description: '使用Python和Apache Airflow设计并实现了一个ETL流水线来处理大型数据集，为零售公司改善了数据整合。',
+          title: '💻 基金管理系统',
+          description: '开发涵盖 Windows 应用程序、服务、Web 服务和 API 的软件，以满足基金管理业务的需求。',
           link: '查看详情',
+          linkurl: 'https://github.com/narongskml',
         },
         project2: {
-          title: '数据库优化',
-          description: '优化SQL Server数据库，使用复杂的存储过程和索引，将查询执行时间缩短了40%。',
+          title: '🎓 YouTube 频道 T-LIVE-CODE',
+          description: '创办并管理 YouTube 频道 “T-LIVE-CODE”，以泰语分享技术与编程知识，展现了对学习和社区发展的高度热情。',
           link: '查看详情',
+          linkurl: 'https://www.youtube.com/@t-live-code',
         },
         project3: {
-          title: 'Excel VBA自动化',
-          description: '开发VBA脚本以自动化财务报告，每周节省20小时的手动工作时间。',
+          title: '🚀 项目管理',
+          description: '负责管理多个内部软件项目，协调团队合作，确保项目顺利执行。专注于开发以用户为中心、符合实际业务需求的解决方案。',
           link: '查看详情',
+          linkurl: '#',
         },
       },
       skills: {
         title: '技能',
         skill1: {
-          title: '软件设计',
-          description: '使用UML和设计模式设计可扩展且易于维护的软件架构。',
+          title: '💻 软件开发',
+          description: '在系统分析、设计及企业级软件开发方面拥有超过 20 年的丰富经验，尤其专注于金融与证券行业的软件解决方案。',
         },
         skill2: {
-          title: '数据库设计与脚本',
-          description: '擅长设计关系型数据库并为MySQL、SQL Server和PostgreSQL编写高效的SQL脚本。',
+          title: '🎓 技术教育与内容创作',
+          description: '“T-LIVE-CODE” YouTube 频道创始人，致力于以泰语分享基础技术知识，帮助本地社区更轻松地理解科技内容。',
         },
         skill3: {
-          title: 'ETL与自动化',
-          description: '使用Apache Airflow等工具构建ETL流水线，并使用Python和VBA实现工作流程自动化。',
+          title: '🚀 领导力与终身学习',
+          description: '具备出色的技术领导能力，并持续学习新兴技术趋势，积极提升自身专业水平与视野。',
         },
       },
       contact: {
@@ -193,6 +205,8 @@ const resources = {
         subtitle: '有兴趣合作吗？随时联系我！',
         email: '发送电子邮件',
         linkedin: 'LinkedIn',
+        youtube: 'YouTube',
+
       },
       footer: {
         text: '© 2025 Narong Sungkhamalai 保留所有权利。',
@@ -213,44 +227,47 @@ const resources = {
       },
       hero: {
         title: '私のポートフォリオへようこそ',
-        subtitle: 'ソフトウェアデザイン、データベースソリューション、ETLプロセスに特化したソフトウェアエンジニア',
+        subtitle: '私は情熱的なソフトウェア開発者で、新しい技術を継続的に探求し、それらを現実世界のソリューションに適用しています。',
         cta: '私の作品を見る',
       },
       about: {
         title: '私について',
-        description: '私は情熱的なソフトウェアエンジニアであり、<strong>ソフトウェアデザイン</strong>、<strong>データベースデザイン</strong>、<strong>ソフトウェア開発</strong>、<strong>ETLプロセス</strong>、<strong>データベーススクリプト</strong>、および<strong>Excel VBA</strong>に精通しています。スケーラブルで効率的なソリューションの構築に重点を置き、ワークフローの最適化とビジネスパフォーマンスの向上を実現するプロジェクトを提供してきました。私の目標は、現実世界の問題を解決する堅牢なシステムを作成することです。',
+        description: 'ソフトウェア開発、プロジェクト管理、フィンテック分野で20年以上の経験を持つテクノロジー専門家。ファンド管理システム、ソフトウェアアーキテクチャ、SDLC、サイバーセキュリティに精通。多機能チームのリーダーとして、革新的なテクノロジーソリューションを提供し、金融機関の業務効率を最適化してきた実績があります。常に学び続け、新しい技術を取り入れてビジネス課題の解決に取り組んでいます。',
       },
       portfolio: {
         title: 'ポートフォリオ',
         project1: {
-          title: 'データウェアハウスのETLパイプライン',
-          description: 'PythonとApache Airflowを使用して大規模なデータセットを処理するETLパイプラインを設計・実装し、小売企業のデータ統合を改善しました。',
+          title: '💻 ファンド管理システム',
+          description: 'Windows アプリケーション、サービス、Web サービス、API を含むソフトウェアを開発し、ファンド管理業務のニーズに対応しました。',
           link: '詳細を見る',
+          linkurl:'https://github.com/narongskml',
         },
         project2: {
-          title: 'データベース最適化',
-          description: '複雑なストアドプロシージャとインデックスを使用してSQL Serverデータベースを最適化し、クエリ実行時間を40％削減しました。',
+          title: '🎓 YouTube チャンネル T-LIVE-CODE',
+          description: 'YouTubeチャンネル「T-LIVE-CODE」の創設者として、タイ語で基礎的なテクノロジー知識を発信し、地域社会の学びを支援しています。',
           link: '詳細を見る',
+          linkurl:'https://www.youtube.com/@t-live-code',
         },
         project3: {
-          title: 'Excel VBA自動化',
-          description: '財務報告を自動化するVBAスクリプトを開発し、週20時間のマニュアル作業を削減しました。',
+          title: '🚀 プロジェクト管理',
+          description: '社内の複数のソフトウェアプロジェクトを管理し、チーム間の連携を円滑に進めました。ユーザーのニーズに応えるソリューションの開発に注力し、ビジネス要件を的確に満たしました。',
           link: '詳細を見る',
+          linkurl:'',
         },
       },
       skills: {
         title: 'スキル',
         skill1: {
-          title: 'ソフトウェアデザイン',
-          description: 'UMLとデザインパターンを使用してスケーラブルで保守性の高いソフトウェアアーキテクチャを設計します。',
+          title: '💻 ソフトウェア開発',
+          description: 'システム分析、設計、およびエンタープライズ向けソフトウェア開発において20年以上の豊富な経験を持ち、特に金融および証券業界に精通しています。',
         },
         skill2: {
-          title: 'データベースデザインとスクリプト',
-          description: 'MySQL、SQL Server、PostgreSQL向けに関係データベースの設計と効率的なSQLスクリプトの作成に精通しています。',
+          title: '🎓 技術教育とコンテンツ制作',
+          description: 'YouTube チャンネル「T-LIVE-CODE」の創設者として、タイ語で基本的なテクノロジー知識を共有し、地域コミュニティがテクノロジーをより理解しやすくすることに貢献しています。',
         },
         skill3: {
-          title: 'ETLと自動化',
-          description: 'Apache Airflowなどのツールを使用してETLパイプラインを構築し、PythonとVBAでワークフローを自動化します。',
+          title: '🚀 リーダーシップと生涯学習',
+          description: '優れたテクノロジーリーダーシップを発揮しながら、常に最新の技術トレンドを学び続け、専門性と視野の向上に努めています。',
         },
       },
       contact: {
@@ -258,6 +275,7 @@ const resources = {
         subtitle: '一緒に働くことに興味がありますか？気軽にご連絡ください！',
         email: 'メールを送る',
         linkedin: 'LinkedIn',
+        youtube: 'YouTube',
       },
       footer: {
         text: '© 2025 Narong Sungkhamalai すべての権利を保持します。',

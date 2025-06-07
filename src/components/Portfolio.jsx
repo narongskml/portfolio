@@ -12,7 +12,7 @@ function Portfolio() {
             <div key={project} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md fade-in">
               <h3 className="text-xl font-semibold mb-2">{t(`portfolio.${project}.title`)}</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">{t(`portfolio.${project}.description`)}</p>
-              <a href="#" className="text-indigo-600 dark:text-indigo-400 hover:underline">{t(`portfolio.${project}.link`)}</a>
+              <a href={t(`portfolio.${project}.linkurl`)} className="text-indigo-600 dark:text-indigo-400 hover:underline">{t(`portfolio.${project}.link`)}</a>
             </div>
           ))}
         </div>

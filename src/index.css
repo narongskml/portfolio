@@ -4,6 +4,7 @@
 @tailwind utilities;
 
 @custom-variant dark (&:where(.dark, .dark *));
+
 .fade-in {
   opacity: 0;
   transform: translateY(20px);

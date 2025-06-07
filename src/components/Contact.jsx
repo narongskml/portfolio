@@ -17,6 +17,9 @@ function Contact() {
           <a href="https://www.linkedin.com/in/narong-sungkhamalai/" className="bg-white text-indigo-600 dark:bg-gray-800 dark:text-indigo-400 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 dark:hover:bg-gray-700 fade-in">
             {t('contact.linkedin')}
           </a>
+           <a href="https://www.youtube.com/@t-live-code/" className="bg-white text-indigo-600 dark:bg-gray-800 dark:text-indigo-400 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 dark:hover:bg-gray-700 fade-in">
+            {t('contact.youtube')}
+          </a>
         </div>
       </div>
     </section>
