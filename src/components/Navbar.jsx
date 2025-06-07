@@ -47,7 +47,7 @@ function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <select
+            <select aria-label="language-select"
               onChange={(e) => handleLanguageChange(e.target.value)}
               className="border rounded p-1 bg-white dark:bg-gray-700 dark:text-white"
               value={i18n.language}
