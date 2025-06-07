@@ -290,6 +290,10 @@ i18n
   .init({
     resources,
     fallbackLng: 'en',
+    detection: {
+      order: ['path', 'navigator', 'cookie', 'localStorage', 'subdomain', 'querystring', 'htmlTag'],
+      lookupFromPathIndex: 0, // ตรวจจับภาษาจาก path เช่น /en/home
+    },
     interpolation: {
       escapeValue: false, // React already escapes
     },
